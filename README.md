@@ -8,18 +8,6 @@ A client is indireclty connected to the internet via an **ISP (Internet Service 
 Because the internet is an interconnection of computers, each computer connected to the internet must have a unique address known as **IP(Internet Protocol) address.**
 An **IP** (Internet Protocol) address is used by your computer when it wants to communicate with another device on the web or intranet.
 When you connect to the internet via an ISP, you are assigned a temporary IP address for the duration of your dial-in session. When you connect from a LAN, your device might have a permanent IP address of might obtain a temporary one from a **Dynamic Host Configuration Protocol(DHCP) Server**.
-
-### Protocol Stacks and Packets
-#### TCP/IP Model
-![TCP/IP model](https://www.tutorialspoint.com/computer_network/images/tcpip-model1.jpg)
-#### OSI Model
-![OSI model](http://www.csit.rmit.edu.au/~jason/csc2073/notes/
-%5Bimage%5D(http://www.csit.rmit.edu.au/%7Ejason/CSC207
-3/Notes/Images/osi-model.gif))
-##### Application Layer: HTTP, FTP etc...
-##### Transport layer: UDP, TCP
-##### Networking layer: IPv4 & IPv6
-##### Link layer: Ethernet, WiFI
 #### DNS - Domain Name System
 DNS translates domain names into ip addresses for us.
 It also helps in finding out which servers are hosting our website or webpages.
@@ -63,5 +51,3 @@ Web browsers communicate via protocols such as http, https, ftp, smtp, pop3 amon
 The most common protocol used today is called hypertext transfer protocol or http.
 When you type www.google.com into Google Chrome's address bar then press enter, what happens?
 Well firstly, the computer looks up the IP Address associated with this URL.
-![alt text](https://github.com/joshua2805/Internet_Concepts/blob/main/Week%2
-
